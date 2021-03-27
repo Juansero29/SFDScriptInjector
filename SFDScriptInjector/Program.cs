@@ -39,8 +39,6 @@ namespace SFDScriptInjector
         private static void WriteEndingMessagesToConsole()
         {
             Console.WriteLine($"Injected map saved to {MapFilePath}");
-            Console.WriteLine($"Press 'ENTER' to exit...");
-            Console.ReadLine();
         }
 
         private static async Task InjectScriptIntoMap(Script scriptToInject)
